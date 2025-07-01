@@ -1,0 +1,71 @@
+{
+  "name": "organized-agents-course",
+  "version": "1.0.0",
+  "description": "The World's First Comprehensive Parallel Agentic Development Education System",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start-course",
+    "start-course": "node scripts/start-course.js",
+    "test-setup": "node scripts/test-setup.js",
+    "validate-environment": "node scripts/validate-env.js",
+    "agent:setup-project": "node agents/project-setup-agent.js",
+    "demo:agent-pair": "node demos/agent-pair-demo.js",
+    "create:portfolio-foundation": "node projects/portfolio-foundation.js",
+    "build": "npm run build:docs && npm run build:interactive",
+    "build:docs": "node scripts/build-docs.js",
+    "build:interactive": "react-scripts build",
+    "dev": "concurrently \"npm run start\" \"react-scripts start\"",
+    "deploy": "npm run build && npm run deploy:github-pages"
+  },
+  "keywords": [
+    "ai-agents",
+    "parallel-development",
+    "education",
+    "interactive-learning",
+    "claude",
+    "automation",
+    "agent-orchestration"
+  ],
+  "author": "Organized AI Community",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "lucide-react": "^0.263.1",
+    "tailwindcss": "^3.3.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "ws": "^8.14.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "eslint": "^8.45.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Organized-AI/organized-agents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Organized-AI/organized-agents/issues"
+  },
+  "homepage": "https://organized-ai.github.io/organized-agents"
+}
