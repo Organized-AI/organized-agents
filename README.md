@@ -191,3 +191,7 @@ Join thousands of developers transforming how software is built:
 **Ready to revolutionize your development process? Your journey to parallel agent mastery starts now!** 🚀
 
 *Built with ❤️ by the Organized AI community*
+
+---
+
+Maintained by Jordaaan Hill ([LinkedIn](https://www.linkedin.com/in/jordaaanhill)).
